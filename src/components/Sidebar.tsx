@@ -55,7 +55,7 @@ function Sidebar({ isOpen, onToggle, onNewChat }: SidebarProps) {
           <div>
             <h3 className="text-sm font-semibold text-gray-600 mb-3 flex items-center gap-2">
               <Clock className="w-4 h-4" />
-              Recent Chats
+              Recent Chats  
             </h3>
             <div className="space-y-2">
               {recentChats.map((chat) => (
